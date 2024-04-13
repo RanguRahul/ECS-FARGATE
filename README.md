@@ -44,17 +44,64 @@ STEP 1 :
 
 
 STEP 2 :
- Creating ECR
+
+ Creating ECR in Linux OR Windows
+ 
+ ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/bc5d1965-fbbb-48cd-88f0-34e2cf40e11f)
+
  Login to ECR
+
+                aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/i2d4i5f8
+
+ 
  Tag existing image as AWS ECR repo
+ 
+                docker tag myecr-repo:latest public.ecr.aws/i2d4i5f8/myecr-repo:latest
+
+   ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/c2f1f8ae-cbcb-4a18-94e1-3cb523bd543f)
+
+ 
  Push image into ECR
+ 
+              docker push public.ecr.aws/i2d4i5f8/myecr-repo:latest
+ 
+ ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/9fba6a6d-f981-45e7-9271-6096b2d95987)
+
 
 STEPS 3 :
 
  Creating Application Load Balancer
 
+ ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/f557723c-4c14-4aa0-9fdb-920ffc424b42)
+
+
 STEP 4 :
- Create Task Definition | Create AWS ECS cluster | Creating Services
+
+ Create Task Definition 
+
+ Task : It is blue print, which describes how to lauch the AWS container. 
+ 
+ 
+![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/8ce5753b-ae44-4e21-a13b-c2fecadddd8e)
+
+ 
+ 
+ Create AWS ECS cluster 
+ 
+ ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/5e2ee06c-fda9-46dd-90e3-7b098a48a168)
+
+ 
+ Creating Services
+ 
+ ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/7680b347-0278-4172-98a8-34bbe36f2e74)
+
+
 
 Steps 5 :
+
 VALIDATION
+
+![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/609a7f7b-37d0-418b-a64b-858d067c9cdb)
+
+
+
