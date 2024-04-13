@@ -33,23 +33,28 @@ Resources required for this project :
 EXECUTION STEPS :
 -------
 
-STEP 1
-> Lauch EC2 instance
-> install Docker
-> Build docker image
+STEP 1 :
+ Lauch EC2 instance,
+ install Docker,
+ Build dockerimage .
 
-STEP 2
-> Creating ECR
-> Login to ECR
-> Tag existing image as AWS ECR repo
-> Push image into ECR
+![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/72575a21-24fa-493c-97a6-1a799f94ceb9)
 
-STEPS 3
 
-> Creating Application Load Balancer
 
-STEP 4
-> Create Task Definition | Create AWS ECS cluster | Creating Services
 
-Steps 5
-> VALIDATION
+STEP 2 :
+ Creating ECR
+ Login to ECR
+ Tag existing image as AWS ECR repo
+ Push image into ECR
+
+STEPS 3 :
+
+ Creating Application Load Balancer
+
+STEP 4 :
+ Create Task Definition | Create AWS ECS cluster | Creating Services
+
+Steps 5 :
+VALIDATION
