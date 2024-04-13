@@ -81,21 +81,19 @@ STEP 4 :
 
  Task : It is blue print, which describes how to lauch the AWS container. 
  
- 
-![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/8ce5753b-ae44-4e21-a13b-c2fecadddd8e)
+![task def](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/83f781c2-3c05-4e70-a90b-cd01dd018b48)
 
- 
- 
+
+
  Create AWS ECS cluster 
  
- ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/5e2ee06c-fda9-46dd-90e3-7b098a48a168)
+ ![cluster](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/a5033f1f-21f9-4bf1-b7ac-60d1b9b4065c)
+
 
  
  Creating Services
  
- ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/7680b347-0278-4172-98a8-34bbe36f2e74)
-
-
+![service](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/4681113d-9772-4e23-936b-b249d0a10264)
 
 Steps 5 :
 
