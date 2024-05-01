@@ -101,5 +101,13 @@ VALIDATION
 
 ![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/609a7f7b-37d0-418b-a64b-858d067c9cdb)
 
+STEP 6:
 
+Set Up Auto Scaling (Optional): Configure auto-scaling for your ECS service to automatically adjust the number of tasks based on metrics such as CPU or memory utilization.
+
+Monitor and Test: Monitor your ECS cluster and application performance using CloudWatch metrics and logs. Test your application to ensure it’s working as expected.
+
+Conclusion:
+
+Deploying web applications on Amazon ECS streamlines the process using containerization technology. By following these key steps and leveraging AWS services like EC2, Docker, ECR, Load Balancer, and Fargate, you can achieve scalable, reliable, and efficient deployment of your web applications on AWS.
 
