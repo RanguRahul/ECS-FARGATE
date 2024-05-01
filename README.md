@@ -1,6 +1,6 @@
 # Deploy an Web Application to Amazon ECS with EC2, Docker, ECR, Load balancer, Fargate
 
-![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/5cced76e-c6e7-476a-976a-7265a2f77c64)
+![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/5cced76e-c6e7-476a-976a-7265a2f77c64) 
 
 
 ELASTIC CONTAINER SERVICE
