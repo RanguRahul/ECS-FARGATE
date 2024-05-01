@@ -1,8 +1,12 @@
 # Deploy an Web Application to Amazon ECS with EC2, Docker, ECR, Load balancer, Fargate
 
+![image](https://github.com/RanguRahul/ECS-FARGATE/assets/120587828/5cced76e-c6e7-476a-976a-7265a2f77c64)
+
+
 ELASTIC CONTAINER SERVICE
 ----------
 Amazon Elastic Container Service (ECS), also known as Amazon EC2 Container Service, is a managed service that allows users to run Docker-based applications packaged as containers across a cluster of EC2 instances. Running simple containers on a single EC2 instance is simple but running these applications on a cluster of instances and managing the cluster is being administratively heavy process. With ECS, Fargate launch type, the load, and responsibility of managing the EC2 cluster is transferred over to the AWS and you can focus on application development rather than management of your cluster architecture.
+
 
 FARGATE
 -----------
